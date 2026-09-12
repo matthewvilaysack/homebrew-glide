@@ -1,28 +1,28 @@
 class Glide < Formula
   desc "Keep your priorities in view while you work in the terminal; onboarding agent for engineering teams"
   homepage "https://tryglide.dev"
-  version "0.4.1"
+  version "0.5.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/matthewvilaysack/glide/releases/download/v0.4.1/glide-0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "a66cae206499c1f7d1d28432ba6969b493fe586de58c481be73ee0ddfaa8fe94"
+      url "https://github.com/matthewvilaysack/glide/releases/download/v0.5.0/glide-0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e277221253788e8517619f12a08141fb29f53747fae92bdeb04981d84fd68075"
     end
     on_intel do
-      url "https://github.com/matthewvilaysack/glide/releases/download/v0.4.1/glide-0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "573ab526ea48ea5b8bc70fa91b633a8da7baa184e1a44e30c7b7c81e65745153"
+      url "https://github.com/matthewvilaysack/glide/releases/download/v0.5.0/glide-0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "bc1d2b393c7b0adfeb4bde2d08b81ca02c69be0c783c0890c50b1873303666f9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/matthewvilaysack/glide/releases/download/v0.4.1/glide-0.4.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e8e8a93be4c8402e6ffdbcfeb8ce17ea8f06d4e7fff2f92f25dc7021584d97f6"
+      url "https://github.com/matthewvilaysack/glide/releases/download/v0.5.0/glide-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b9ca0ee51c75c070c57dcb7a3c634eee46f5d4d51e47495e6100dcc8c8cd50ea"
     end
     on_intel do
-      url "https://github.com/matthewvilaysack/glide/releases/download/v0.4.1/glide-0.4.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "31a5ec451a1725ded902e404c61de78efbad9809b84211ded68e7189cd87427e"
+      url "https://github.com/matthewvilaysack/glide/releases/download/v0.5.0/glide-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3de4dd4834dfaaf800a65c0ad02ec1793fab8114ad536be40cc92f0a400ada02"
     end
   end
 
